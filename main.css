@@ -97,21 +97,48 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Gravitas One', cursive;
   background-color: pink;
+  font-size: 80px;
+}
+
+.Morning {
+  text-align: center;
+  border: 3px dotted;
+  width: 300px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  font-size: 30px;
+}
+
+.Afternoon {
+  text-align: center;
+  width:300px;
+  border: 3px dotted;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  font-size: 30px;
+}
+
+.Night {
+  text-align: center;
+  width:300px;
+  border: 3px dotted;
+  margin-left: 100px;
+  font-size: 30px;
 }
 
 
-.nine  {
+.nine {
 background-image: url(nine.png);
 background-repeat: no-repeat;
 display: inline-flex;
 width:300px;
 height:300px;
-position: relative;
-margin-top: 600px;
-
+margin-top:800px;
 }
+
 
 .ten {
   background-image: url(ten.png);
@@ -119,7 +146,6 @@ margin-top: 600px;
   background-repeat: no-repeat;
   height: 500px;
   width:500px;
-  margin-top: 600px;
 }
 
 .eleven {
@@ -128,23 +154,23 @@ margin-top: 600px;
   background-repeat: no-repeat;
   height: 200px;
   width: 200px;
-  margin-bottom: 900px;
+  margin-bottom: 1000px;
 }
 
 .twelve1 {
   background-image: url(twelve1.png);
   display: inline-flex;
   background-repeat:none;
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
 }
 
 .twelve2 {
   background-image: url(twelve2.png);
   display:inline-flex;
   background-repeat:no-repeat;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 
 .one {
@@ -167,8 +193,8 @@ margin-top: 600px;
   background-image: url(three.png);
   display: inline-flex;
   background-repeat: no-repeat;
-  height: 100px;
-  width:100px
+  height: 400px;
+  width:400px
 
 }
 
@@ -178,14 +204,14 @@ margin-top: 600px;
   background-repeat: no-repeat;
   height:100px;
   width: 1000px;
-  margin-bottom: 800px;
+  margin-bottom: 1000px;
 }
 
 .six {
   background-image: url(six.png);
   display: inline-flex;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 800px;
   width:400px;
 }
 
@@ -216,16 +242,16 @@ width:400px;
 background-image: url(tenpm.png);
 display: inline-flex;
 background-repeat: no-repeat;
-height: 400px;
-width:400px;
+height: 200px;
+width:1000px;
 }
 
 .elevenpm {
 background-image: url(elevenpm.png);
 display: inline-flex;
 background-repeat: no-repeat;
-height: 400px;
-width:400px;
+height: 250px;
+width:1000px;
 }
 
 
