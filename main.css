@@ -139,7 +139,39 @@ height:300px;
 margin-top:800px;
 }
 
+  .wrapper {
+    margin: 0 auto;
+    position:relative;
+      }
+  .content {
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color:white;
+    text-align: center;
+    }
+    .content span {
+      font-size: 20px;
+      display: block
+        }
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height:100%;
+        width:100%;
+        opacity: 0;
+        transition: .5 ease;
+        background-color:inherit;
+      }
 
+      .wrapper:hover .overlay{
+          opacity:1;
+        }
 .ten {
   background-image: url(ten.png);
   display:inline-flex;
@@ -202,7 +234,7 @@ margin-top:800px;
   background-image: url(four.png);
   display: inline-flex;
   background-repeat: no-repeat;
-  height:100px;
+  height:200px;
   width: 1000px;
   margin-bottom: 1000px;
 }
@@ -215,19 +247,14 @@ margin-top:800px;
   width:400px;
 }
 
-.seven{
-  background-image: url(seven.png);
-  display: inline-flex;
-  background-repeat: no-repeat;
-  height: 500px;
-  width: 500px;
-}
 
-.eight {
+
+.eight1 {
 background-image: url(eight.png);
 display: inline-flex;
-height: 400px;
-width:400px;
+background-repeat: no-repeat;
+height: 1000px;
+width:300px;
 }
 
 .ninepm {
